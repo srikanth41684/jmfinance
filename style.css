@@ -1,0 +1,171 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen:wght@300&family=Poppins:ital,wght@0,100;1,500;1,600;1,700&family=Sofia&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #182651;
+    font-family: 'Oxygen', sans-serif;
+}
+
+.hero-section {
+    background-image: url(./images/Group-1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 650px;
+}
+
+.logo img {
+    margin-top: 20px;
+    margin-left: 40px;
+    width: 300px;
+}
+
+.logo button {
+    display: none;
+}
+
+.hero-section-body {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 10px;
+    justify-content: space-between;
+    margin: 60px 150px;
+}
+
+.hero-section-body img {
+    width: 100%;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 50%;
+}
+
+.form input, select {
+    padding: 17px 10px;
+    width: 100%;
+    border: none;
+}
+
+.form button {
+    padding: 20px 15px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    width: 400px;
+    margin-top: 15px;
+    width: 100%;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 8px;
+    color: #fff;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.form button:hover {
+    background-color: #fff;
+    color: #182651;
+}
+
+.portfolio-section {
+    background-color: #DEECFF;
+    padding: 50px 200px;
+}
+
+.portfolio-section p {
+    font-size: 2rem;
+    color: #19437D;
+    font-weight: bold;
+}
+
+.middle-section {
+    color: #fff;
+}
+
+.signature {
+    font-size: 3.3rem;
+    margin-top: 200px;
+    font-weight: 900;
+    font-family: 'Varsity Team', sans-serif;
+    text-align: center;
+}
+
+.signature-box {
+    border: 2px solid #fff;
+    margin: 60px 150px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    font-weight: bold;
+    border-radius: 40px;
+    transition: 0.5s;
+}
+
+.signature-box ul {
+    padding: 40px 50px;
+}
+
+hr {
+    border-style: dashed;
+    margin: 20px;
+}
+
+.signature-box:hover {
+    background-color: #203165;
+    box-shadow: 10px 10px 40px #096cf6;
+}
+
+.details-container {
+    background-color: #fff;
+    text-align: center;
+    margin: 80px 300px;
+    border-radius: 20px;
+    padding: 20px;
+}
+
+.details-container h1 {
+    color: #EE1F42;
+    font-weight: bold;
+}
+
+.details-container h1 a {
+    color: #EE1F42;
+}
+
+.details-container p {
+    font-size: 1.5rem;
+    color: #19437D;
+
+}
+
+.details-container p a {
+    color: #19437D;
+}
+
+.footer {
+    background-color: #81BDD9;
+    padding: 60px 150px;
+}
+
+.footer p a {
+    text-decoration: none;
+    color: #000;
+}
+
+.footer p a:hover {
+    text-decoration: underline;
+}
+
+.footer .last-para span {
+    font-weight: bold;
+}
